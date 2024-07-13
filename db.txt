@@ -1,0 +1,64 @@
+use Onlineshop;
+CREATE DATABASE onlineshop;
+select * from logininfo;
+select * from productinfo;
+
+
+
+-- Insert 50 sample product records
+INSERT INTO productinfo (PRODUCT_ID, PRODUCT_NAME, PRODUCT_PRICE) VALUES
+('01', 'Laptop', 64999.00),
+('02', 'Smartphone', 19999.00),
+('03', 'Tablet', 14999.00),
+('04', 'Headphones', 2999.00),
+('05', 'Smartwatch', 4999.00),
+('06', 'Desktop', 34999.00),
+('07', 'Camera', 25999.00),
+('08', 'Printer', 7999.00),
+('09', 'Monitor', 10999.00),
+('10', 'Keyboard', 1499.00),
+('11', 'Mouse', 799.00),
+('12', 'External Hard Drive', 4999.00),
+('13', 'USB Flash Drive', 599.00),
+('14', 'Memory Card', 899.00),
+('15', 'Power Bank', 1499.00),
+('16', 'Bluetooth Speaker', 1999.00),
+('17', 'Router', 2499.00),
+('18', 'Webcam', 2999.00),
+('19', 'Microphone', 1999.00),
+('20', 'VR Headset', 15999.00),
+('21', 'Smart Light', 999.00),
+('22', 'Fitness Tracker', 2999.00),
+('23', 'eBook Reader', 7999.00),
+('24', 'Portable Projector', 19999.00),
+('25', 'Smart Thermostat', 4999.00),
+('26', 'Game Console', 39999.00),
+('27', 'Electric Scooter', 34999.00),
+('28', 'Drone', 24999.00),
+('29', '3D Printer', 49999.00),
+('30', 'Digital Pen', 2999.00),
+('31', 'Smart Doorbell', 3999.00),
+('32', 'Security Camera', 4999.00),
+('33', 'WiFi Extender', 1999.00),
+('34', 'Smart Plug', 1499.00),
+('35', 'Smart Lock', 9999.00),
+('36', 'Wireless Charger', 1999.00),
+('37', 'Portable Power Station', 14999.00),
+('38', 'Smart Scale', 1999.00),
+('39', 'Air Purifier', 7999.00),
+('40', 'Water Purifier', 12999.00),
+('41', 'Electric Toothbrush', 2999.00),
+('42', 'Hair Dryer', 1999.00),
+('43', 'Hair Straightener', 2499.00),
+('44', 'Robotic Vacuum Cleaner', 14999.00),
+('45', 'Smart Refrigerator', 54999.00),
+('46', 'Smart Oven', 14999.00),
+('47', 'Smart Washing Machine', 34999.00),
+('48', 'Smart TV', 39999.00),
+('49', 'Home Theater System', 19999.00),
+('50', 'Soundbar', 9999.00);
+
+-- Select all products to verify the insertion
+SELECT * FROM productinfo;
+SELECT * FROM logininfo;
+
